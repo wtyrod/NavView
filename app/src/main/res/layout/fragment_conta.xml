@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_conta"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    tools:context="com.example.rodrigo.navview.ContaFragment">
+
+    <ImageView
+        android:id="@+id/imageButton"
+        android:layout_width="137dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        app:srcCompat="@mipmap/ic_account_circle_black_24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        >
+
+        <EditText
+            android:id="@+id/textView2"
+            android:layout_width="210dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Myrela Morais" />
+
+        <Button
+            android:id="@+id/alterarNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botao2"
+            android:text="Alterar"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/textView"
+            android:layout_width="209dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="20dp"
+            android:text="Senha"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/alterarSenha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alterar"
+            android:background="@drawable/botao2"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="25dp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Excluir Conta?"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="64dp"
+        android:layout_height="33dp"
+        android:text="Sair"
+        android:layout_marginLeft="20dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp" />
+
+</LinearLayout>
