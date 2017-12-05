@@ -29,10 +29,7 @@
             android:icon="@mipmap/ic_shopping_cart_black_24dp"
             android:title="Meu Carrinho" />
 
-        <item
-            android:id="@+id/nav_logout"
-            android:icon="@mipmap/ic_settings_power_black_24dp"
-            android:title="Sair" />
+
     </group>
 
 </menu>

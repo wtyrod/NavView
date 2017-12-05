@@ -10,15 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:name=".cadastro">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".AnimalUm" />
+        <activity android:name=".AnimalDois" />
+        <activity android:name=".AnimalTres" />
+        <activity android:name=".AnimalQuatro" />
+        <activity android:name=".AnimalCinco" />
+        <activity android:name=".AnimalSeis" />
+        <activity android:name=".login"></activity>
     </application>
 
 </manifest>

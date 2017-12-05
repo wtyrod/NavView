@@ -9,38 +9,35 @@
         android:id="@+id/imagem"
         android:layout_width="134dp"
         android:layout_height="134dp"
-        app:srcCompat="@drawable/comidinha1"
+        app:srcCompat="@drawable/bolinhaaa"
         android:layout_marginTop="5dp"
         android:layout_margin="5dp"/>
+
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="right">
+        android:layout_gravity="right"
+        android:orientation="vertical">
 
         <TextView
+            android:id="@+id/nomeproduto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nome da racao"
-            android:id="@+id/nomeracao"
             android:layout_marginTop="10dp"
-            />
+            android:text="Nome do produto" />
+
         <TextView
+            android:id="@+id/preco"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Descrição"
-            android:id="@+id/descricao"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="R$ PREÇO"
-            android:id="@+id/preco"/>
+            android:text="R$ PREÇO" />
+
         <Button
-            android:id="@+id/addalicar"
+            android:id="@+id/addacecar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="adicionar"
-            android:drawableLeft="@mipmap/ic_add_shopping_cart_black_24dp"/>
+            android:drawableLeft="@mipmap/ic_add_shopping_cart_black_24dp"
+            android:text="adicionar" />
 
     </LinearLayout>
 </LinearLayout>

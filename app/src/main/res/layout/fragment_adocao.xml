@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="10"
-    android:background="@drawable/back2"
+    android:background="@drawable/fundo"
     tools:context="com.example.rodrigo.navview.AdocaoFragment">
 
     <RelativeLayout
@@ -18,8 +18,7 @@
 
         <TextView
             android:id="@+id/textGrid"
-            android:text="Animais
-   Disponíveis"
+            android:text="Animais Disponíveis"
             android:textSize="34sp"
             android:textColor="@android:color/white"
             android:layout_centerInParent="true"
@@ -47,6 +46,7 @@
 
         <!--columm 1-->
         <android.support.v7.widget.CardView
+            android:id="@+id/animalum"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -64,6 +64,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <ImageView
+                    android:src="@drawable/animalum"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
@@ -80,6 +81,7 @@
         </android.support.v7.widget.CardView>
         <!--columm 2-->
         <android.support.v7.widget.CardView
+            android:id="@+id/animaldois"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -97,6 +99,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <ImageView
+                    android:src="@drawable/animaldois"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
@@ -116,6 +119,7 @@
 
         <!--columm 1-->
         <android.support.v7.widget.CardView
+            android:id="@+id/animaltres"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -133,6 +137,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <ImageView
+                    android:src="@drawable/animaltres"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
@@ -149,6 +154,7 @@
         </android.support.v7.widget.CardView>
         <!--columm 2-->
         <android.support.v7.widget.CardView
+            android:id="@+id/animalquatro"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -166,6 +172,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <ImageView
+                    android:src="@drawable/animalquatro"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
@@ -185,6 +192,7 @@
 
         <!--columm 1-->
         <android.support.v7.widget.CardView
+            android:id="@+id/animalcinco"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -202,6 +210,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <ImageView
+                    android:src="@drawable/animalcinco"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
@@ -218,6 +227,7 @@
         </android.support.v7.widget.CardView>
         <!--columm 2-->
         <android.support.v7.widget.CardView
+            android:id="@+id/animalseis"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -235,6 +245,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <ImageView
+                    android:src="@drawable/animalseis"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
